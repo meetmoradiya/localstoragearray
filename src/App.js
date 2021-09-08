@@ -4,12 +4,7 @@ import React, { useEffect } from 'react';
 
 function App() {
   const [data, setData] = React.useState([])
-  // const [dataarr , setDataArr]  =React.useState([
-  //   {
-  //     question:data.question,
-  //     answer:data.answer
-  //   }
-  // ])
+  
   const [openpopup, setOpenPopUp] = React.useState(false)
   useEffect(() => {
 
